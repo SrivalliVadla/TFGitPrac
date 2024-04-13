@@ -6,7 +6,7 @@ provider "aws"{
 
 
 
- resource "aws_instance" "Arjun" {
+ resource "aws_instance" "Arjuns" {
     ami = "ami-05a5bb48beb785bf1"
     instance_type = var.cputype
     key_name = "red hat"
@@ -16,7 +16,7 @@ provider "aws"{
    availability_zone = "ap-south-1b"
 }
 
-resource "aws_instance" "Mani" {
+resource "aws_instance" "Manis" {
     ami = "ami-05a5bb48beb785bf1"
     instance_type = var.cputype
     key_name = "red hat"
